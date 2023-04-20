@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code & Coffee</title>
+    <link rel="shortcut icon" href="images/taza-de-cafe.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <img src="images/taza-de-cafe.png" alt="">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#carrusel">Code & Coffee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carrusel">Hogar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" itemid="carrusel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/galeria1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Café de especialidad</h5>
+            <p>En Code & Coffee, utilizamos solo los mejores granos de café de origen, cuidadosamente seleccionados de las mejores regiones cafeteras del mundo. Ya sea que prefieras un café suave y dulce o un café intenso y fuerte, estamos seguros de que encontrarás la variedad perfecta para ti.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/galeria2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Equipo experto</h5>
+            <p>Nos esforzamos por ofrecer la mejor experiencia a nuestros clientes. Desde la decoración acogedora hasta nuestro menú cuidadosamente diseñado, cada detalle está pensado para que te sientas como en casa. Ven a visitarnos y deja que nuestro equipo de baristas expertos prepare para ti la taza perfecta de café</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/galeria3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Amigables con el medio ambiente</h5>
+            <p>No solo nos preocupamos por ofrecer el mejor café, sino también por cuidar el medio ambiente. Utilizamos productos y materiales sostenibles en nuestro proceso de preparación y servimos nuestras bebidas en tazas y vasos reciclables.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row" id="nosotros">
+        <h2>Un poco sobre nosotros</h2>
+        <!-- Columna 1 -->
+        <div class="col-sm-12 col-md-6">
+          <img src="images/coffee.jpg" alt="">
+        </div>
+        <!-- Columna 2 -->
+        <div class="col-sm-12 col-md-6">
+          <p>¡Bienvenidos a Code & Coffee! Somos un equipo apasionado por el café y estamos encantados de presentarnos a ti. Nuestra historia comenzó hace varios años cuando un grupo de amigos se enamoró del café de especialidad. Descubrimos que el café es mucho más que una simple bebida, es una forma de arte que requiere dedicación y atención en cada paso del proceso.</p>
+          <p>Después de muchos años de investigación y práctica, decidimos abrir nuestro propio restaurante de café de especialidad. Queríamos crear un lugar donde los amantes del café pudieran venir a disfrutar de una taza excepcional en un ambiente relajado y acogedor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron text-center">
+      <h1>Nuestros productos</h1>
+      <p>Ven y disfruta de una taza de café de calidad en nuestro acogedor café. ¡Te garantizamos que no te arrepentirás!</p>
+    </div>    
+    <div class="container" id="productos">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Capuccino</h3>
+          <img src="images/capuccino.png" alt="">
+          <p>Si eres un amante del café, no puedes dejar de probar nuestro capuccino. Con una deliciosa combinación de espresso suave y leche vaporizada, este clásico italiano es el equilibrio perfecto entre sabor y cremosidad.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Expreso</h3>
+          <img src="images/expresso.png" alt="">
+          <p>Si eres un auténtico amante del café y buscas una experiencia de sabor única, nuestro espresso es la elección perfecta. Preparado con granos de café tostados a la perfección y una técnica de elaboración de espresso tradicional italiana.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Latte</h3>
+          <img src="images/latte.png" alt="">
+          <p>Si buscas algo un poco más suave pero igualmente delicioso, nuestro latte es la opción perfecta. Con una base de espresso y leche vaporizada, su capa de espuma suave y cremosa te dejará sin aliento.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Todos los derechos reservados
+        <a class="text-dark" href="https://code&coffee.com/">code&coffee.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  </body>
+</html>
